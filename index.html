@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artūra VP aicinājums</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: #333;
+            padding: 20px;
+        }
+        .message {
+            color: darkgreen;
+            font-size: 18px;
+        }
+        .input-container {
+            margin-top: 20px;
+        }
+        .input-container input {
+            font-size: 16px;
+            padding: 10px;
+            width: 200px;
+        }
+        .input-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="output" class="message"></div>
+    <div class="input-container" id="inputContainer">
+        <input type="text" id="userInput" placeholder="Enter your response" />
+        <button onclick="processInput()">Submit</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
